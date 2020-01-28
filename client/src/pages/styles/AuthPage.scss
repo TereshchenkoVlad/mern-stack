@@ -1,0 +1,20 @@
+.auth {
+    h1 {
+        text-align: center;
+        color: #e91e63 !important
+    }
+
+    &-title {
+        margin-bottom: 30px !important;
+    }
+
+    &__inputs {
+        &-email {
+            margin-bottom: 15px !important;
+        }
+    }
+
+    &__btn-login {
+        margin-right: 10px;
+    }
+}
