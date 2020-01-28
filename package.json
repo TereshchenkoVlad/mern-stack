@@ -1,0 +1,35 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TereshchenkoVlad/mern-stack.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "js",
+    "mongo"
+  ],
+  "author": "Vladyslav Tereshchenko <terhoha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TereshchenkoVlad/mern-stack/issues"
+  },
+  "homepage": "https://github.com/TereshchenkoVlad/mern-stack#readme",
+  "dependencies": {
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
