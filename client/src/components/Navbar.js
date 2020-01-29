@@ -14,9 +14,9 @@ const Navbar = () => {
 
     return (
     <nav>
-        <div class="nav-wrapper pink navbar">
-            <span class="brand-logo">Cut the link</span>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div className="nav-wrapper pink navbar">
+            <span className="brand-logo">Cut the link</span>
+            <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><NavLink to="/create">Create</NavLink></li>
                 <li><NavLink to="/links">Links</NavLink></li>
                 <li><a href="/" onClick={logoutHandler}>Log out</a></li>
